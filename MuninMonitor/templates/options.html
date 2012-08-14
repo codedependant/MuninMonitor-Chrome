@@ -1,0 +1,24 @@
+<br>
+<br>
+
+<br>
+<div class="container">
+  <h1 class="header">Munin Monitor</h1>
+  <div class="form">
+    <div id="messages" style="display:none;">
+    </div>    
+    <div>
+      <label>Your Munin overview page url:</label>
+      <input type="text" id="muninPage" value="{{munin_monitor_url}}"/>
+    </div>
+
+    <div>
+      <label>Polling Interval (in minutes):</label>
+      <input type="text" id="pollingInterval" value="{{munin_monitor_interval}}"/>
+      <input id="intervalSlider" type="range" min="0" max="60" value="{{munin_monitor_interval}}">
+    </div>
+
+    <br>
+    <button id="submit">Save Preferences</button>
+  </div>
+</div>

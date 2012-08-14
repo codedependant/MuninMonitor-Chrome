@@ -1,0 +1,92 @@
+body
+{
+    font-family:'Century Gothic',futura,'URW Gothic L',Verdana,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background: -webkit-linear-gradient(top,  rgba(113,113,113,1) 0%,rgba(99,99,99,1) 41%,rgba(96,96,96,1) 100%); /* Chrome10+,Safari5.1+ */
+    font-weight: bold;
+}
+
+div.container
+{
+
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  background: whiteSmoke;
+  -webkit-box-shadow: 5px 5px 12px rgba(14, 14, 14, 0.54);
+  border-radius: 3px;
+}
+
+div.container h1.header
+{
+    color:whitesmoke;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:25px;
+
+    margin: 0px;
+    background-image: -webkit-linear-gradient(top,  rgba(93,93,93,1) 0%,rgba(82,82,82,1) 41%,rgba(66,66,66,1) 100%); /* Chrome10+,Safari5.1+ */
+    text-shadow: rgba(0, 0, 0, 0.8) 0px 1px 5px;
+  
+}
+
+div.container > div.form
+{
+  padding:15px;
+
+}
+div.container > div.form > div
+{
+  padding:10px;
+}
+div.container > div.form div > label
+{
+  display:block;
+  padding: 5px;
+  width:100%;
+  color: #524F4F;
+}
+
+#notifications
+{
+  margin-left: 15px;
+}
+
+input[type="text"],input[type="range"]
+{
+  width: 270px;
+  border: 1px solid #CCC;
+  -webkit-border-radius: 3px;
+  transition: border linear 0.2s, box-shadow linear 0.2s;
+  height: 30px;
+  padding: 4px;
+  font-size: 13px;
+  line-height: 18px;
+  color: #555;  
+  margin-top: 3px;
+}
+
+input[type="text"]:focus
+{
+  border-color: rgba(82, 168, 236, 0.8);
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);  
+}
+
+button
+{
+  padding:12px;
+  border-radius: 25px;
+  background: rgb(113,113,113); /* Old browsers */
+  border: none;
+  background-image: -webkit-linear-gradient(top,  rgba(93,93,93,1) 0%,rgba(82,82,82,1) 41%,rgba(66,66,66,1) 100%); /* Chrome10+,Safari5.1+ */
+  text-shadow: rgba(0, 0, 0, 0.8) 0px 1px 5px;
+  color:whitesmoke;
+  font-weight: bold;
+  cursor: pointer;  
+}
+button:hover
+{
+  background: -webkit-linear-gradient(top,  rgba(113,113,113,1) 0%,rgba(99,99,99,1) 41%,rgba(96,96,96,1) 100%); /* Chrome10+,Safari5.1+ */
+}
