@@ -3,6 +3,7 @@ Munin Monitor polls your Munin overview page for changes and displays links for 
 The extentension is written in coffeescript and utilizes Backbone, Mustache and RequireJS.
 
 
-In order to compile the coffeescript files into the scripts directory of the extension run the following:
+In order to compile the <a href='http://coffeescript.org/'>coffeescript</a>  files into the scripts directory of the extension run the following:
+
 coffee -w --output MuninMonitor/scripts --compile coffeescripts
 
